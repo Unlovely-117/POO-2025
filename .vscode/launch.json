@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug mi-proyecto",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/bin/mi-proyecto",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb",
+        "preLaunchTask": "Build MI-PROYECTO"
+      },
+    ]
+  }
+
+
+
+
+  {
+    "name": "Debug mi-proyecto",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/build/bin/<carpeta>",
+    "args": [],
+    "cwd": "${workspaceFolder}",
+    "console": "integratedTerminal",
+    "MIMode": "gdb",
+    "miDebuggerPath": "/usr/bin/gdb",
+    "preLaunchTask": "Build <nombre proyecto>"
+  },
